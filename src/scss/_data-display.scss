@@ -1,0 +1,36 @@
+.class-list{
+    header{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    h2{
+        font-size:2rem;
+    }
+
+    ul{
+        width:280px;
+        border: 1px solid rgb(229, 229, 229);
+    }
+    li{
+        padding: 0.7rem 1rem;
+        color:#8d8d8d;
+        border-bottom: 1px solid rgb(229, 229, 229);
+        display:flex;
+        align-items: center;
+    }
+    
+    span:last-of-type{
+     margin-left: 0.4rem;
+     margin-right: auto;
+    }
+  
+    li:hover{
+        background-color: rgb(239, 239, 239);
+    }
+    li:last-of-type{
+        border-bottom: none;
+    }
+    img{
+        opacity: 0.375;
+    }
+}
